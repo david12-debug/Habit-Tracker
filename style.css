@@ -19,8 +19,27 @@ li {
 input[type="text"] {
     width: 200px;
     padding: 8px;
+    
+}
+
+#input-container {
+  display: flex;           /* puts children in a row */
+  justify-content: center; /* center the row horizontally */
+  align-items: center;     /* vertically align input & button */
+  gap: 10px;               /* space between input and button */
+  margin-bottom: 20px;     /* optional spacing from list */
+}
+
+#habit-input {
+    display: block;
+    width: 300px;
 }
 
 button {
     padding: 8px 12px;
+}
+
+#habit-list {
+    width: 300px;
+    margin: 0 auto;
 }
